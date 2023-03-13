@@ -1,0 +1,106 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 10px;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-image: url(/img/santiago.jpg);
+  background-size: cover;
+  height: 500px;
+  border-radius: 20px 20px 0 0;
+}
+
+.test {
+  background: #edede9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 200px auto 10px auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.test2 {
+  background: #edede9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  background-color: #f5ebe0;
+  margin-top: 0;
+}
+
+.fotos {
+  display: flex;
+  justify-content: space-around;
+  height: fit-content;
+}
+
+.imagenes {
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.texto {
+  display: flex;
+  justify-content: space-around;
+  height: fit-content;
+}
+
+.text {
+  width: 200px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.parrafos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.parr {
+  height: 80px;
+  width: 200px;
+  text-align: center;
+  word-wrap: break-word;
+  margin-top: 0px;
+}
+
+img {
+  width: 200px;
+  border-radius: 100px;
+}
+
+.card {
+  background-color: #edede9;
+  border-bottom: 5px solid #2ec4b6;
+  color: #2ec4b6;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+  box-shadow: 5px 11px 16px -1px rgba(0, 0, 0, 0.89);
+}
+
+img:hover {
+  animation: backwards;
+  background-color: #fdfcdc;
+}
